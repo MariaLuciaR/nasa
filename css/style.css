@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
 }
 
-nav {
+header nav {
   margin-top: 98px;
 }
 
@@ -44,4 +44,17 @@ section img {
 
 section img:hover {
   filter: grayscale(100%);
+}
+
+footer nav {
+  padding-top: 72px;
+  padding-bottom: 44px;
+}
+
+footer nav a {
+  color: #203A8F;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0'
 }
