@@ -29,3 +29,19 @@ header h1 {
   width: 68px;
   margin-top: 60px;
 }
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+section img {
+  height: 355px;
+  margin: 0 29.20px 29.20px 0;
+  transition: filter .5s ease-in;
+  filter: grayscale(0%);
+}
+
+section img:hover {
+  filter: grayscale(100%);
+}
